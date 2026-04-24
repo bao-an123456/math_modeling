@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 忽略所有 Excel 数据文件 (因为您只想上传源码)
 *.xlsx
 *.csv
@@ -20,3 +21,43 @@ Thumbs.db
 !*.py
 !walkthrough.md
 !.gitignore
+=======
+# PyCharm / JetBrains
+.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / lint / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local data and generated results
+data/
+results/
+
+# Keep Markdown notes in output, ignore generated tables/workbooks there
+output/*
+!output/
+!output/*.md
+
+# Generated artifacts
+*.csv
+*.xlsx
+*.xls
+*.pdf
+
+# Current local helper files not included in this GitHub submission
+code/traffic _bar_chart.py
+code/utils.py
+>>>>>>> 4b80395128fb3cfb200d620667e8f3a853eb6c27
