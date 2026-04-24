@@ -1,0 +1,22 @@
+# 忽略所有 Excel 数据文件 (因为您只想上传源码)
+*.xlsx
+*.csv
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略本地 IDE 配置 (可选)
+.vscode/
+.idea/
+
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 允许上传的代码和文档 (显式保留，防止被误伤)
+!*.py
+!walkthrough.md
+!.gitignore
